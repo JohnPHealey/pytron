@@ -1,0 +1,250 @@
+#settingstable {
+	width: 400px;
+	border: 0.5px;
+}
+
+#speedtext {
+	width: 70px;
+}
+
+#settings {
+	width: 300px;
+}
+
+#gameOver td {
+	text-align: "center";
+}
+
+input[type="text"] {
+	border: 0px;
+	text-align: center;
+	font-size: 15px;
+	font-style: italic;
+	font-family: serif;
+	font-weight: bold;
+}
+
+#usersearch {
+	width: 80px;
+	border: 1px solid black;
+	margin: 10px;
+}
+
+#scoresearch {
+	width: 80px;
+	border: 1px solid black;
+	margin: 10px;
+	text-align: default;
+}
+
+input[type="submit"] {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 12px 28px;
+    background-color: #b2adad;
+    border: 0px;
+    margin: 10px;
+}
+
+input[type="submit"]:hover {
+    color: white;
+    background-color: gold;
+}
+
+#viewbutton {
+	-webkit-transition-duration: 0s; /* Safari */
+    transition-duration: 0s;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 12px 28px;
+    background-color: #b2adad;
+    border: 0px;
+    margin: 10px;
+}
+
+#viewbutton:hover {
+	color: white;
+    background-color: gold;
+}
+
+#speedtext {
+	margin-top: 25px;
+}
+
+#username {
+	border: 1px;
+}
+
+ol {
+    background: #f7d411;
+    padding: 20px;
+    margin-left: 15px;
+    width: 110px;
+}
+
+ol li {
+    background: #f7e580;
+    padding: 5px;
+    margin-left: 5px;
+    width: 70px;
+}
+
+#scoreHolder {
+	list-style: none;
+}
+
+h3 {
+	margin: 25px 0px 0px 25px;
+}
+
+h4 {
+	margin: 15px 0px 0px 0px;
+	text-decoration: underline;
+	font-size: 17px;
+}
+
+#finalscore {
+	font-size: 20px;
+}
+
+.gameoverButtons {
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 12px 28px;
+    background-color: #b2adad;
+    border: 0px;
+    margin: 4px;
+}
+
+.gameoverButtons:hover {
+	color: white;
+    background-color: gold;
+}
+
+#playagain:hover {
+	background-color: red;
+}
+
+#mainmenu:hover {
+	background-color: blue;
+}
+
+#showuser:hover {
+	background-color: gold;
+}
+
+#hideuser {
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 12px 28px;
+    background-color: #b2adad;
+    border: 0px;
+    margin: 10px;
+}
+
+#hideuser:hover {
+	color: white;
+    background-color: red;
+}
+
+#username {
+	border: 1px solid black;
+}
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: #f26b5c;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 400px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.9s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #968ff7;
+}
+
+button.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    width: 350px;
+}
+
+/* Popup container */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
